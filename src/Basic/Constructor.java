@@ -28,6 +28,10 @@ public class Constructor {
 		this.email=email;
 		System.out.println("pameterized constructor2 called............");
 	}
+	void print()
+	{
+		System.out.println("constructor");
+	}
 	public static void main(String[] args) {
 		
 		Constructor c=new Constructor();
